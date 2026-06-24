@@ -3,7 +3,7 @@
 ### Gender-Responsive AI for Women's Safety
 
 <p align="center">
-  <img src="public/banner.png" alt="NariRaksha Banner" width="100%">
+  <img src="public/images/vikhram-contact.jpg" alt="NariRaksha Banner" width="100%">
 </p>
 
 <p align="center">
