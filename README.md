@@ -3,7 +3,7 @@
 ### Gender-Responsive AI for Women's Safety
 
 <p align="center">
-  <img src="public/images/vikhram-contact.jpg" alt="NariRaksha Banner" width="100%">
+  <img src="public/images/vikhram-contact.jpg" alt="NariRaksha Banner" width="50%">
 </p>
 
 <p align="center">
@@ -220,9 +220,6 @@ Government of India • IndiaAI Mission • MeitY • UN Women
 # Author
 
 ## Vikhram S
-
-Electronics and Communication Engineering (ECE)
-
 Artificial Intelligence Researcher & Open Source Developer
 
 ### Areas of Interest
@@ -242,7 +239,7 @@ Artificial Intelligence Researcher & Open Source Developer
 
 A Python NLP package focused on constitutional and legal text processing.
 
-~26,000+ downloads across package ecosystems.
+~31,000+ downloads across package ecosystems.
 
 ---
 
@@ -271,16 +268,6 @@ A Python NLP package focused on constitutional and legal text processing.
 📦 https://pypi.org/user/Vikhram_S/
 
 📦 https://pypi.org/project/indianconstitution/
-
----
-
-# Repository Statistics
-
-![GitHub stars](https://img.shields.io/github/stars/NariRaksha-AI/nariraksha-ai?style=social)
-
-![GitHub forks](https://img.shields.io/github/forks/NariRaksha-AI/nariraksha-ai?style=social)
-
-![GitHub watchers](https://img.shields.io/github/watchers/NariRaksha-AI/nariraksha-ai?style=social)
 
 ---
 
