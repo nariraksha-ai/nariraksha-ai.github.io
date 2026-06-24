@@ -2,197 +2,313 @@
 
 ### Gender-Responsive AI for Women's Safety
 
-[![Next.js](https://img.shields.io/badge/Next.js-15-black)]()
-[![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue)]()
-[![Open Source](https://img.shields.io/badge/Open%20Source-Public-success)]()
-[![AI for Social Good](https://img.shields.io/badge/AI-Social%20Impact-purple)]()
+<p align="center">
+  <img src="public/banner.png" alt="NariRaksha Banner" width="100%">
+</p>
 
-NariRaksha is a public-facing initiative that transforms an internationally recognized AI-for-social-good case study into an accessible digital platform for citizens, policymakers, researchers, students, urban planners, and women's safety advocates.
+<p align="center">
+  <strong>AI for Social Good • Women's Safety • Responsible AI • Smart Cities • Gender Empowerment</strong>
+</p>
 
-The project demonstrates how Artificial Intelligence can be designed and deployed responsibly to improve women's safety through a combination of:
+<p align="center">
+  <a href="https://nariraksha-ai.github.io/"><img src="https://img.shields.io/badge/Live-Website-success?style=for-the-badge"></a>
+  <a href="https://github.com/NariRaksha-AI"><img src="https://img.shields.io/badge/Open%20Source-Public-blue?style=for-the-badge"></a>
+  <img src="https://img.shields.io/badge/IndiaAI%20Impact%20Summit%202026-Selected-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/AI%20for%20Social%20Good-Impact-purple?style=for-the-badge">
+</p>
 
-* Geospatial Intelligence
+---
+
+## About NariRaksha
+
+NariRaksha is a gender-responsive AI initiative designed to demonstrate how Artificial Intelligence can strengthen women's safety through responsible, transparent, and human-centered technologies.
+
+The project combines:
+
+* Geospatial Analytics
 * Computer Vision
 * Multilingual Natural Language Processing
 * Risk Identification
 * Incident Reporting
 * Explainable AI Dashboards
-* Ethical and Responsible AI Governance
+* Ethical AI Governance
+
+to support proactive safety planning and informed decision-making in urban environments.
 
 ---
 
-## Recognition
+# Recognition & Global Selection
 
-NariRaksha was selected for publication in the **India AI Impact Summit 2026 Casebook on AI and Gender Empowerment**, a joint initiative involving:
+## India AI Impact Summit 2026
 
-* Ministry of Electronics and Information Technology (MeitY), Government of India
+NariRaksha was selected for publication in the:
+
+### "India AI Impact Summit 2026 Casebook on AI and Gender Empowerment"
+
+A collaborative initiative involving:
+
 * IndiaAI Mission
+* Ministry of Electronics and Information Technology (MeitY), Government of India
 * UN Women
 
-Key highlights:
+### Selection Highlights
 
-* More than **235 submissions** were received globally.
-* Entries underwent multi-stage screening and technical evaluation.
-* Only **23 AI applications** were selected for publication in the final casebook.
+| Metric                       | Value                   |
+| ---------------------------- | ----------------------- |
+| Global Submissions Received  | 235+                    |
+| Multi-Stage Technical Review | ✓                       |
+| Final Applications Selected  | 23                      |
+| Publication Status           | Selected & Published    |
+| Category                     | AI & Gender Empowerment |
 
-### Published Chapter
+---
 
-**"NariRaksha: Gender-Responsive AI for Women's Safety"**
+# Featured Chapter
 
-Authors:
+### NariRaksha: Gender-Responsive AI for Women's Safety
+
+#### Authors
 
 * Vikhram S
 * Jeffin Gracewell J
 
----
+### Core Focus Areas
 
-## Why This Website Exists
-
-Research papers, policy reports, and technical casebooks often reach a limited audience.
-
-The objective of this platform is to bridge the gap between:
-
-**Research → Public Awareness**
-
-**Policy Vision → Community Impact**
-
-**AI Innovation → Real-World Understanding**
-
-By presenting NariRaksha in a visual, interactive, and accessible format, this website helps more people understand how responsible AI can contribute to safer urban environments for women.
+* Safer Urban Mobility
+* AI-Assisted Risk Identification
+* Women's Safety Intelligence
+* Explainable AI
+* Responsible AI Governance
+* Gender-Inclusive Smart Cities
 
 ---
 
-## The Vision
+# Why This Website Exists
 
-NariRaksha explores how an integrated AI ecosystem can support urban safety through:
+Most research papers, policy reports, white papers, and conference proceedings are rarely read by the general public.
 
-### Geospatial Analytics
+This platform transforms a published AI case study into an accessible, visual, and public-friendly experience.
 
-Identifying high-risk zones and safety hotspots using spatial intelligence.
+The objective is simple:
+
+### Research → Awareness
+
+### Awareness → Understanding
+
+### Understanding → Impact
+
+### Impact → Safer Communities
+
+---
+
+# Vision
+
+NariRaksha explores how AI can assist stakeholders in identifying emerging safety risks through:
+
+### Geospatial Intelligence
+
+Mapping high-risk areas and identifying recurring safety patterns.
 
 ### Computer Vision
 
-Analyzing surveillance inputs to detect unusual or potentially unsafe situations.
+Detecting unusual activities and environmental safety concerns.
 
 ### Multilingual NLP
 
-Understanding distress reports and citizen feedback across multiple languages.
+Understanding citizen reports and distress signals across multiple languages.
 
-### Risk Assessment
+### Risk Forecasting
 
-Combining multiple signals to identify emerging safety concerns.
+Identifying safety vulnerabilities before incidents escalate.
 
 ### Decision Support
 
-Providing explainable insights for authorities and urban safety administrators.
+Providing explainable insights for authorities and urban administrators.
 
-### Ethical Governance
+### Responsible AI
 
-Embedding transparency, accountability, privacy, fairness, and responsible AI practices throughout the system lifecycle.
+Embedding privacy, transparency, accountability, fairness, and inclusivity throughout the system lifecycle.
 
 ---
 
-## Impact Areas
+# Impact Areas
 
 * Women's Safety
 * Smart Cities
-* Responsible AI
-* Digital Public Infrastructure
-* Gender Empowerment
+* AI for Social Good
 * Urban Analytics
-* AI Governance
-* Public Policy Innovation
+* Public Policy
+* Responsible AI
+* Digital Governance
+* Sustainable Development Goal 5 (Gender Equality)
 
 ---
 
-## Technology Stack
+# Project Journey
 
-| Technology     | Purpose              |
-| -------------- | -------------------- |
-| Next.js        | Frontend Framework   |
-| TypeScript     | Type Safety          |
-| React          | User Interface       |
-| Tailwind CSS   | Styling              |
-| GitHub Pages   | Deployment           |
-| GitHub Actions | Automated Deployment |
-
----
-
-## Website Features
-
-* Interactive storytelling
-* Simplified explanation of the NariRaksha concept
-* Public-friendly presentation of AI systems
-* Gender-responsive AI awareness content
-* Responsive design
-* Mobile-first experience
-* Open-source accessibility
+```text
+Idea
+  ↓
+Research
+  ↓
+Case Study Development
+  ↓
+Technical Evaluation
+  ↓
+India AI Impact Summit Selection
+  ↓
+Casebook Publication
+  ↓
+Public Awareness Website
+  ↓
+Community Impact
+```
 
 ---
 
-## Responsible AI Principles
+# Technology Stack
 
-NariRaksha is guided by:
+| Technology     | Usage                   |
+| -------------- | ----------------------- |
+| Next.js        | Frontend Framework      |
+| React          | User Interface          |
+| TypeScript     | Application Development |
+| Tailwind CSS   | Styling                 |
+| GitHub Pages   | Deployment              |
+| GitHub Actions | CI/CD                   |
 
-* Privacy by Design
+---
+
+# Website Features
+
+* Modern Responsive Design
+* Public-Friendly Storytelling
+* Research Simplification
+* Interactive User Experience
+* Mobile Optimization
+* Accessibility Focus
+* Open Source Deployment
+
+---
+
+# Responsible AI Principles
+
+NariRaksha follows the principles of:
+
 * Human-Centered AI
+* Privacy by Design
+* Fairness
 * Transparency
 * Explainability
 * Accountability
 * Inclusivity
-* Fairness
 * Bias Monitoring
 * Ethical Governance
 
 ---
 
-## About the Author
+# Featured In
 
-### Vikhram S
+India AI Impact Summit 2026
 
-Electronics and Communication Engineering (ECE) Undergraduate
+Government of India • IndiaAI Mission • MeitY • UN Women
 
-Areas of Interest:
+> AI and Gender Empowerment Casebook 2026
+
+---
+
+# Author
+
+## Vikhram S
+
+Electronics and Communication Engineering (ECE)
+
+Artificial Intelligence Researcher & Open Source Developer
+
+### Areas of Interest
 
 * Artificial Intelligence
 * Machine Learning
 * Natural Language Processing
 * Vision-Language Models (VLMs)
 * Small Language Models (SLMs)
-* Medical and Radiology AI
-* Open-Source Software
+* Medical AI
+* Radiology AI
+* Responsible AI
 
-Notable Contributions:
+### Open Source Contributions
 
-* Creator and maintainer of the **indianconstitution** NLP package.
-* Author of peer-reviewed AI research publications.
-* Contributor to AI-for-social-good initiatives.
-* Advisor in machine learning and technology communities.
+#### indianconstitution
+
+A Python NLP package focused on constitutional and legal text processing.
+
+~26,000+ downloads across package ecosystems.
 
 ---
 
-## Citation
+# Connect
 
-If you reference this project, please cite:
+### Website
 
-```text
-Vikhram S, Jeffin Gracewell J.
-"NariRaksha: Gender-Responsive AI for Women's Safety."
-India AI Impact Summit 2026 Casebook on AI and Gender Empowerment.
-IndiaAI, MeitY and UN Women.
+🌐 https://nariraksha-ai.github.io/
+
+### LinkedIn
+
+💼 https://www.linkedin.com/in/vikhram-s/
+
+### ORCID
+
+🧑‍🔬 https://orcid.org/0009-0002-5300-7591
+
+### Hugging Face
+
+🤗 https://huggingface.co/Vikhram-S
+
+🤗 https://huggingface.co/vikhram-labs
+
+### PyPI
+
+📦 https://pypi.org/user/Vikhram_S/
+
+📦 https://pypi.org/project/indianconstitution/
+
+---
+
+# Repository Statistics
+
+![GitHub stars](https://img.shields.io/github/stars/NariRaksha-AI/nariraksha-ai?style=social)
+
+![GitHub forks](https://img.shields.io/github/forks/NariRaksha-AI/nariraksha-ai?style=social)
+
+![GitHub watchers](https://img.shields.io/github/watchers/NariRaksha-AI/nariraksha-ai?style=social)
+
+---
+
+# Citation
+
+```bibtex
+@misc{nariraksha2026,
+  title={NariRaksha: Gender-Responsive AI for Women's Safety},
+  author={Vikhram S and Jeffin Gracewell J},
+  year={2026},
+  note={Published in India AI Impact Summit 2026 Casebook on AI and Gender Empowerment},
+  publisher={IndiaAI, MeitY and UN Women}
+}
 ```
 
 ---
 
-## Disclaimer
+# Disclaimer
 
-This website is intended for educational, awareness, research, and public-interest purposes.
+This project is intended for educational, awareness, research, and public-interest purposes.
 
-NariRaksha represents an AI-enabled framework and case study focused on strengthening women's safety through responsible and gender-responsive technology. Any future real-world deployment should comply with applicable laws, privacy regulations, ethical standards, and institutional governance requirements.
+The website presents a gender-responsive AI framework focused on improving understanding of how responsible AI can contribute to safer public spaces for women.
+
+Any future operational deployment should comply with applicable laws, privacy requirements, ethical standards, and institutional governance frameworks.
 
 ---
 
-## License
+# License
 
 MIT License
 
@@ -200,8 +316,14 @@ Copyright (c) 2026 Vikhram S
 
 ---
 
-### Building Safer Cities Through Responsible AI
+<p align="center">
+  <strong>Building Safer Cities Through Responsible AI</strong>
+</p>
 
-### Empowering Women Through Technology
+<p align="center">
+  <strong>Empowering Women Through Technology</strong>
+</p>
 
-### Advancing AI for Social Good
+<p align="center">
+  <strong>Advancing AI for Social Good</strong>
+</p>
