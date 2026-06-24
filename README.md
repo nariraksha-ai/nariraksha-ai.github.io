@@ -297,7 +297,9 @@ Any future operational deployment should comply with applicable laws, privacy re
 
 # License
 
-MIT License
+This project is licensed under the Apache License 2.0.
+
+See the LICENSE file for details.
 
 Copyright (c) 2026 Vikhram S
 
