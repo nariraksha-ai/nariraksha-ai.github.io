@@ -11,12 +11,29 @@ export default function Footer({ locale }: { locale: string }) {
   const [email, setEmail] = useState("");
   const [subscribed, setSubscribed] = useState(false);
 
-  const handleSubscribe = (e: React.FormEvent) => {
+  const handleSubscribe = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (email) {
-      window.location.href = `mailto:vikhramselvacumaran@gmail.com,vikhrams@saveetha.ac.in?subject=NariRaksha Newsletter Subscription&body=Please subscribe me to the newsletter. My email is: ${email}`;
+    if (!email) return;
+    try {
+      // Using Web3Forms for backend-less database storage and email forwarding (GitHub Pages friendly)
+      await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          access_key: "YOUR_WEB3FORMS_ACCESS_KEY", // Replace this with your actual key
+          subject: "NariRaksha Newsletter Subscription",
+          from_name: "Newsletter Portal",
+          "Subscriber Email": email,
+        }),
+      });
       setSubscribed(true);
       setEmail("");
+    } catch (error) {
+      console.error("Subscription failed:", error);
+      alert("Failed to subscribe. Please try again later.");
     }
   };
 

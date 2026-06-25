@@ -26,11 +26,32 @@ export default function CommunityPage({ params }: { params: Promise<{ locale: st
     { name: "Local Communities", title: t("a6Title"), desc: t("a6Desc"), icon: Users },
   ];
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    const body = `Community Report Details:\n\nCommute Type: ${formData.commuteType}\nPrimary Issue: ${formData.issue}\nLocation: ${formData.location}\nAdditional Context: ${formData.additionalInfo}\n\nPlease add this to the NariRaksha database.`;
-    window.location.href = `mailto:vikhramselvacumaran@gmail.com,vikhrams@saveetha.ac.in?subject=New NariRaksha Community Report&body=${encodeURIComponent(body)}`;
-    setFormSubmitted(true);
+    try {
+      // Using Web3Forms for backend-less database storage and email forwarding (GitHub Pages friendly)
+      // Get your free access key from https://web3forms.com/ and replace YOUR_WEB3FORMS_ACCESS_KEY
+      await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          access_key: "d10cdd54-2def-45b4-af51-a84022a1922b", // Replace this with your actual key
+          subject: "New NariRaksha Community Report",
+          from_name: "Community Portal",
+          "Commute Type": formData.commuteType,
+          "Primary Issue": formData.issue,
+          "Location Details": formData.location,
+          "Additional Context": formData.additionalInfo || "None provided",
+        }),
+      });
+      setFormSubmitted(true);
+    } catch (error) {
+      console.error("Form submission failed:", error);
+      alert("Failed to submit report. Please try again later.");
+    }
   };
 
   const handleReset = () => {
@@ -73,11 +94,10 @@ export default function CommunityPage({ params }: { params: Promise<{ locale: st
               <button
                 key={role.name}
                 onClick={() => setActiveRole(role.name)}
-                className={`p-4 rounded-xl border flex flex-col items-center gap-2 text-center transition-all cursor-pointer ${
-                  isActive
+                className={`p-4 rounded-xl border flex flex-col items-center gap-2 text-center transition-all cursor-pointer ${isActive
                     ? "bg-primary border-primary text-primary-foreground shadow-lg shadow-violet-600/10"
                     : "bg-card/40 border-border hover:bg-muted text-foreground"
-                }`}
+                  }`}
               >
                 <Icon className="h-5 w-5" />
                 <span className="text-xs font-semibold">{role.name}</span>
